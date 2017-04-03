@@ -3,7 +3,6 @@ package io.spring.demo.quotes;
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.time.Instant;
-import java.time.LocalDateTime;
 
 public class Quote {
 
