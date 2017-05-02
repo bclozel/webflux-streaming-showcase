@@ -27,7 +27,7 @@ public class StreamingServiceApplication {
 					new User("snicoll", "Stephane Nicoll"),
 					new User("rstoyanchev", "Rossen Stoyanchev"),
 					new User("smaldini", "Stephane Maldini"),
-					new User("sbasle", "Simon Basle"),
+					new User("simonbasle", "Simon Basle"),
 					new User("bclozel", "Brian Clozel")
 			);
 			userRepository.save(users).blockLast(Duration.ofSeconds(3));
