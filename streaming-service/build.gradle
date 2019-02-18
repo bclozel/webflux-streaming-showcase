@@ -23,7 +23,7 @@ dependencies {
 group = 'io.spring.demo'
 version = '0.0.1-SNAPSHOT'
 description = 'streaming-service'
-sourceCompatibility = 11
+sourceCompatibility = 1.8
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
