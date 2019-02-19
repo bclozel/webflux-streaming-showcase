@@ -39,8 +39,8 @@ public class Quote {
 		this.price = price;
 	}
 
-	public Instant getInstant() {
-		return instant;
+	public long getInstant() {
+		return instant.getEpochSecond();
 	}
 
 	public void setInstant(Instant instant) {

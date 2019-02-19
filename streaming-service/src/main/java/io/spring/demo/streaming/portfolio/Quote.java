@@ -12,7 +12,7 @@ public class Quote {
 
 	private BigDecimal price;
 
-	private Instant instant;
+	private long instant;
 
 	public Quote() {
 	}
@@ -42,16 +42,12 @@ public class Quote {
 		this.price = price;
 	}
 
-	public Instant getInstant() {
+	public long getInstant() {
 		return instant;
 	}
 
-	public void setInstant(Instant instant) {
-		this.instant = instant;
-	}
-
-	public void setInstant(long epoch) {
-		this.instant = Instant.ofEpochSecond(epoch);
+	public void setInstant(long instant) {
+		this.instant =instant;
 	}
 
 	@Override

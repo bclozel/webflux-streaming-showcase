@@ -21,7 +21,7 @@ public class QuoteGenerator {
 
 	private Random random = new Random();
 
-	private List<Quote> prices = new ArrayList();
+	private List<Quote> prices = new ArrayList<>();
 
 	public QuoteGenerator() {
 		this.prices.add(new Quote("CTXS", 82.26));
